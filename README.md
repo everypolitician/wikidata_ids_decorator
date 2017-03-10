@@ -1,8 +1,6 @@
 # WikidataIdsDecorator
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wikidata_ids_decorator`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+When scraping a page from Wikipedia, this [Scraped](https://github.com/everypolitician/scraped) decorator will attempt to look up the associated Wikidata item for each other Wikipedia page linked from within the page content. It adds a wikidata="Qxxx" attribute to each successfully resolved link.
 
 ## Installation
 
