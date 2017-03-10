@@ -1,11 +1,7 @@
 require 'test_helper'
 
-class WikidataIdsDecoratorTest < Minitest::Test
-  def test_that_it_has_a_version_number
-    refute_nil ::WikidataIdsDecorator::VERSION
-  end
-
-  def test_it_does_something_useful
-    assert false
+describe WikidataIdsDecorator do
+  it 'has a version number' do
+    ::WikidataIdsDecorator::VERSION.wont_be_nil
   end
 end
