@@ -32,5 +32,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/chrismytton/wikidata_ids_decorator.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/everypolitician/wikidata_ids_decorator.
