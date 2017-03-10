@@ -4,19 +4,16 @@
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add these lines to your scraper's Gemfile:
 
 ```ruby
-gem 'wikidata_ids_decorator'
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}.git" }
+gem 'wikidata_ids_decorator', github: 'everypolitician/wikidata_ids_decorator'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install wikidata_ids_decorator
 
 ## Usage
 
