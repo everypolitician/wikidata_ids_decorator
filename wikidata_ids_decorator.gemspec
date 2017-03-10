@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['EveryPolitician']
   spec.email         = ['team@everypolitician.org']
 
-  spec.summary       = 'Scraped decorator to add Wikidata ids to Wikidata page links'
+  spec.summary       = 'Scraped decorator to add Wikidata ids to Wikipedia links'
   spec.homepage      = 'https://github.com/everypolitician/wikidata_ids_decorator'
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
