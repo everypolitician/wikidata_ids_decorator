@@ -25,7 +25,9 @@ require 'wikidata_ids_decorator'
 class WikipediaPage < Scraped::HTML
   decorator WikidataIdsDecorator
 
-  # Fields etc...
+  field :wikidata_ids do
+    noko.css('a/@wikidata').map(&:text)
+  end
 end
 ```
 
