@@ -17,7 +17,17 @@ And then execute:
 
 ## Usage
 
-TODO: Write usage instructions here
+To use this in your scraper first `require` the library and then add it to your scraper class using the `decorator` macro.
+
+``` ruby
+require 'wikidata_ids_decorator'
+
+class WikipediaPage < Scraped::HTML
+  decorator WikidataIdsDecorator
+
+  # Fields etc...
+end
+```
 
 ## Development
 
