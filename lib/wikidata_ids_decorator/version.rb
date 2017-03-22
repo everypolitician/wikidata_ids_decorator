@@ -1,5 +1,3 @@
-require 'scraped'
-
-class WikidataIdsDecorator < Scraped::Response::Decorator
+module WikidataIdsDecorator
   VERSION = '0.1.0'.freeze
 end

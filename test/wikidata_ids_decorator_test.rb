@@ -13,7 +13,7 @@ describe WikidataIdsDecorator do
 </div>
       HTML
       response = Scraped::Response.new(body: body, url: 'https://en.wikipedia.org/wiki/Douglas_Adams_(disambiguation)')
-      decorator = WikidataIdsDecorator.new(response: response)
+      decorator = WikidataIdsDecorator::Links.new(response: response)
       decorator.body.must_include '<a href="https://en.wikipedia.org/wiki/Douglas_Adams" title="Douglas Adams"' \
         ' wikidata="Q42">Douglas Adams</a>'
     end
