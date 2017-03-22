@@ -23,7 +23,7 @@ To use this in your scraper first `require` the library and then add it to your 
 require 'wikidata_ids_decorator'
 
 class WikipediaPage < Scraped::HTML
-  decorator WikidataIdsDecorator
+  decorator WikidataIdsDecorator::Links
 
   field :wikidata_ids do
     noko.css('a/@wikidata').map(&:text)
