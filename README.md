@@ -1,6 +1,6 @@
 # WikidataIdsDecorator
 
-[Scraped](https://github.com/everypolitician/scraped) decorator which adds a `data-` attribute to Wikipedia links containing the Wikidata ID for the linked item, if relevant.
+When scraping a page from Wikipedia, this [Scraped](https://github.com/everypolitician/scraped) decorator will attempt to look up the associated Wikidata item for each other Wikipedia page linked from within the page content. It adds a wikidata="Qxxx" attribute to each successfully resolved link.
 
 ## Installation
 
