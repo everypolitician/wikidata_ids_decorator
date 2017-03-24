@@ -41,4 +41,10 @@ describe WikidataIdsDecorator::Links do
       decorator.body.must_include '<a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a>'
     end
   end
+
+  describe 'URLs containing a colon' do
+    it 'it should leave links not pointing to an article alone' do
+      decorator.body.must_include '<a href="/wiki/Special:BookSources/0-330-26738-8" title="Special:BookSources/0-330-26738-8">0-330-26738-8</a>'
+    end
+  end
 end
