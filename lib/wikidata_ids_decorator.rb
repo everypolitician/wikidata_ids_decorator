@@ -19,7 +19,7 @@ module WikidataIdsDecorator
     end
 
     def language
-      'en'
+      URI.parse(url).host.split('.').first
     end
   end
 end
