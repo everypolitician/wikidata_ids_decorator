@@ -15,6 +15,8 @@ module WikidataIdsDecorator
     private
 
     def wikidata_ids(links)
+      # TODO: Suppress 'Can't find Wikidata IDs for:' warnings
+      # Issue: #7
       WikiData.ids_from_pages(language, links)
     end
 
