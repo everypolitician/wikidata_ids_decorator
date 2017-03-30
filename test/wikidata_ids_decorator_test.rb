@@ -33,19 +33,19 @@ describe WikidataIdsDecorator::Links do
     end
 
     describe 'Redirect links' do
-      it 'it follows the redirect and adds the correct wikidata item id' do
+      it 'follows the redirect and adds the correct wikidata item id' do
         decorator.body.must_include '<a href="/wiki/Vogons" class="mw-redirect" title="Vogons" wikidata="Q1076157">'
       end
     end
 
     describe 'Links outside of #bodyContent' do
-      it 'should leave these links alone' do
+      it 'leaves these links alone' do
         decorator.body.must_include '<a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a>'
       end
     end
 
     describe 'URLs containing a colon' do
-      it 'it should leave links not pointing to an article alone' do
+      it 'leaves links not pointing to an article alone' do
         decorator.body.must_include '<a href="/wiki/Special:BookSources/0-330-26738-8" '\
                                     'title="Special:BookSources/0-330-26738-8">0-330-26738-8</a>'
       end
