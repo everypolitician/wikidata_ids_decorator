@@ -7,16 +7,13 @@ module WikidataIdsDecorator
     def body
       Nokogiri::HTML(super).tap do |doc|
         links = doc.css('#bodyContent a[href*="/wiki"][title]').reject { |a| a[:title].include? ':' }
-        wdids = wikidata_ids(links.map { |a| a[:title] }.uniq)
-        links.each { |a| a[:wikidata] = wdids[a[:title]] }
+        links.each { |a| a[:wikidata] = wikidata_ids(Array(a[:title])).flatten.last }
       end.to_s
     end
 
     private
 
     def wikidata_ids(links)
-      # TODO: Suppress 'Can't find Wikidata IDs for:' warnings
-      # Issue: #7
       WikiData.ids_from_pages(language, links)
     end
 

@@ -50,6 +50,14 @@ describe WikidataIdsDecorator::Links do
                                     'title="Special:BookSources/0-330-26738-8">0-330-26738-8</a>'
       end
     end
+
+    describe 'Links with a wikidata id that appears in a link elsewhere on the page' do
+      it 'adds a wikidata attribute' do
+        decorator.body.must_include '<a href="/wiki/The_Meaning_of_Liff" '\
+                                    'title="The Meaning of Liff" wikidata="Q875382">'\
+                                    'The Meaning of Liff</a>'
+      end
+    end
   end
 
   describe 'Non English language links' do
