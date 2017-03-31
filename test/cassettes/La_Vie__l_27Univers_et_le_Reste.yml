@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 27 Mar 2017 09:29:15 GMT
+      - Fri, 31 Mar 2017 12:06:33 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -46,31 +46,31 @@ http_interactions:
       Backend-Timing:
       - D=69383 t=1490603976513272
       X-Varnish:
-      - 155128010, 962249200 948640729, 363360517
+      - 417491627 155128011, 989169044 168381703, 978812141 877332055
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
-      Accept-Ranges:
-      - bytes
       Age:
-      - '2979'
+      - '358017'
       X-Cache:
-      - cp1054 miss, cp3033 hit/1, cp3043 miss
+      - cp1054 hit/3, cp3033 hit/4, cp3031 hit/17
       X-Cache-Status:
       - hit
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=GB:ENG:Bristol:51.46:-2.60:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=27-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Fri,
-        28 Apr 2017 00:00:00 GMT
-      - WMF-Last-Access=27-Mar-2017;Path=/;HttpOnly;secure;Expires=Fri, 28 Apr 2017
-        00:00:00 GMT
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
       X-Analytics:
       - ns=0;page_id=107440;https=1;nocookies=1
       X-Client-Ip:
-      - 5.148.47.8
+      - 86.167.94.227
       Cache-Control:
       - private, s-maxage=0, max-age=0, must-revalidate
+      Accept-Ranges:
+      - bytes
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -1179,13 +1179,13 @@ http_interactions:
         SG9zdG5hbWUiOiJtdzEyMTQifSk7fSk7PC9zY3JpcHQ+Cgk8L2JvZHk+Cjwv
         aHRtbD4K
     http_version: 
-  recorded_at: Mon, 27 Mar 2017 09:29:15 GMT
+  recorded_at: Fri, 31 Mar 2017 12:06:33 GMT
 - request:
     method: post
     uri: https://fr.wikipedia.org/w/api.php
     body:
       encoding: UTF-8
-      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Douglas+Adams%7CRoyaume-Uni%7CScience-fiction%7CAnglais+britannique%7C1982+en+litt%C3%A9rature%7CJean+Bonnefoy%7C%C3%89ditions+Deno%C3%ABl%7CPr%C3%A9sence+du+futur%7CNovembre+1983%7C1983+en+litt%C3%A9rature%7CInternational+Standard+Book+Number%7CLe+Guide+du+voyageur+galactique+%28univers%29%7CLe+Dernier+Restaurant+avant+la+fin+du+monde%7CSalut%2C+et+encore+merci+pour+le+poisson%7CConsultez+la+documentation+du+mod%C3%A8le%7CArthur+Dent%7CFord+Prefect+%28personnage%29%7CTerre%7CPr%C3%A9histoire%7CLa+Grande+Question+sur+la+vie%2C+l%27univers+et+le+reste%7CPlan%C3%A8te%7CS.+P.+Somtow%7CCricket%7CEoin+Colfer%7CEncore+une+chose%E2%80%A6%7CZaphod+Beeblebrox%7CTrillian+%28personnage%29%7CMarvin+%28Le+Guide+du+voyageur+galactique%29%7CAndro%C3%AFde%7CParano%C3%AFa%7CD%C3%A9pression+%28m%C3%A9decine%29%7CArchitecte%7CFjord%7CLe+Guide+du+voyageur+galactique%7CLe+Guide+du+voyageur+galactique+%28roman%29%7CGlobalement+inoffensive%7CThe+Hitchhiker%27s+Guide+to+the+Galaxy+%28s%C3%A9rie+radiophonique%29%7CThe+Hitchhiker%27s+Guide+to+the+Galaxy+%28s%C3%A9rie+t%C3%A9l%C3%A9vis%C3%A9e%29%7CThe+Hitchhiker%27s+Guide+to+the+Galaxy+%28jeu+vid%C3%A9o%29%7CLe+Guide+du+voyageur+galactique+%28fictif%29%7CLa+grande+question+sur+la+vie%2C+l%27univers+et+le+reste%7CVogon%7CC%C5%93ur+en+Or%7CBabel+fish%7CAgrajag%7CJour+de+la+serviette%7CH2g2+%28site+web%29%7CFonds+de+tiroir%7CPortail+de+la+science-fiction
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Douglas+Adams
     headers:
       User-Agent:
       - Faraday v0.11.0
@@ -1201,15 +1201,15 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 27 Mar 2017 09:29:15 GMT
+      - Fri, 31 Mar 2017 12:06:33 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '1488'
+      - '128'
       Connection:
       - keep-alive
       Server:
-      - mw1221.eqiad.wmnet
+      - mw1276.eqiad.wmnet
       X-Powered-By:
       - HHVM/3.12.14
       X-Content-Type-Options:
@@ -1224,9 +1224,9 @@ http_interactions:
       Vary:
       - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
       Backend-Timing:
-      - D=29642 t=1490606955518333
+      - D=27026 t=1490961993617056
       X-Varnish:
-      - 142103750, 263745706, 371651111
+      - 724275900, 243781120, 985449801
       Via:
       - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
       Accept-Ranges:
@@ -1234,63 +1234,5192 @@ http_interactions:
       Age:
       - '0'
       X-Cache:
-      - cp1053 pass, cp3031 pass, cp3043 pass
+      - cp1052 pass, cp3031 pass, cp3031 pass
       X-Cache-Status:
       - pass
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Set-Cookie:
-      - GeoIP=GB:ENG:Bristol:51.46:-2.60:v4; Path=/; secure; Domain=.wikipedia.org
-      - WMF-Last-Access-Global=27-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Fri,
-        28 Apr 2017 00:00:00 GMT
-      - WMF-Last-Access=27-Mar-2017;Path=/;HttpOnly;secure;Expires=Fri, 28 Apr 2017
-        00:00:00 GMT
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
       X-Analytics:
       - ns=-1;special=Badtitle;https=1;nocookies=1
       X-Client-Ip:
-      - 5.148.47.8
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"27364":{"pageid":27364,"ns":0,"title":"Douglas
+        Adams","pageprops":{"wikibase_item":"Q42"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:33 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Royaume-Uni
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:33 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '122'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1200.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29330 t=1490961993821819
+      X-Varnish:
+      - 988323096, 389715748, 983723729
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"2551":{"pageid":2551,"ns":0,"title":"Royaume-Uni","pageprops":{"wikibase_item":"Q145"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:33 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Science-fiction
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '126'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1282.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=42147 t=1490961994040393
+      X-Varnish:
+      - 325885602, 389715754, 979494553
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"2784":{"pageid":2784,"ns":0,"title":"Science-fiction","pageprops":{"wikibase_item":"Q24925"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:34 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Anglais+britannique
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '133'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1289.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=34701 t=1490961994287625
+      X-Varnish:
+      - 864194525, 1011804721, 979494572
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"1463739":{"pageid":1463739,"ns":0,"title":"Anglais
+        britannique","pageprops":{"wikibase_item":"Q7979"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:34 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Royaume-Uni
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '122'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1233.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29239 t=1490961994504860
+      X-Varnish:
+      - 1063188949, 388955563, 968883369
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"2551":{"pageid":2551,"ns":0,"title":"Royaume-Uni","pageprops":{"wikibase_item":"Q145"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:34 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=1982+en+litt%C3%A9rature
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1281.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=37182 t=1490961994716814
+      X-Varnish:
+      - 303227567, 81320978, 986784714
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"319787":{"pageid":319787,"ns":0,"title":"1982
+        en litt\u00e9rature","pageprops":{"wikibase_item":"Q1463227"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:34 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Jean+Bonnefoy
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '134'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1235.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29213 t=1490961994937689
+      X-Varnish:
+      - 985843450, 81484036, 983723828
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"385986":{"pageid":385986,"ns":0,"title":"Jean
+        Bonnefoy","pageprops":{"wikibase_item":"Q3170843"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:35 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=%C3%89ditions+Deno%C3%ABl
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1231.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=27615 t=1490961995153123
+      X-Varnish:
+      - 1059862996, 82865696, 993526966
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"871280":{"pageid":871280,"ns":0,"title":"\u00c9ditions
+        Deno\u00ebl","pageprops":{"wikibase_item":"Q2485022"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:35 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Pr%C3%A9sence+du+futur
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1286.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=30034 t=1490961995367266
+      X-Varnish:
+      - 717773955, 1050162346, 983347189
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3030 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"2037772":{"pageid":2037772,"ns":0,"title":"Pr\u00e9sence
+        du futur","pageprops":{"wikibase_item":"Q3409094"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:35 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Novembre+1983
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '133'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1229.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=26032 t=1490961995592654
+      X-Varnish:
+      - 342265366, 1024474324, 988328746
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"7191195":{"pageid":7191195,"ns":0,"title":"Novembre
+        1983","pageprops":{"wikibase_item":"Q16667218"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:35 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=1983+en+litt%C3%A9rature
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '137'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1229.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=26648 t=1490961995805848
+      X-Varnish:
+      - 340149760, 668670001, 989309785
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3040 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"330318":{"pageid":330318,"ns":0,"title":"1983
+        en litt\u00e9rature","pageprops":{"wikibase_item":"Q280964"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:35 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=International+Standard+Book+Number
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '147'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1202.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=41047 t=1490961996014563
+      X-Varnish:
+      - 360554882, 388260007, 989244640
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"24498":{"pageid":24498,"ns":0,"title":"International
+        Standard Book Number","pageprops":{"wikibase_item":"Q33057"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:36 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Le+Guide+du+voyageur+galactique+%28univers%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '178'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1198.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=36453 t=1490961996252481
+      X-Varnish:
+      - 976968242, 381410872, 990427377
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"redirects":[{"from":"Le Guide du voyageur
+        galactique (univers)","to":"Le Guide du voyageur galactique"}],"pages":{"687604":{"pageid":687604,"ns":0,"title":"Le
+        Guide du voyageur galactique","pageprops":{"wikibase_item":"Q25169"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:36 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Le+Dernier+Restaurant+avant+la+fin+du+monde
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '151'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1279.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=32087 t=1490961996480259
+      X-Varnish:
+      - 859160989, 223024473, 990427392
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3031 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"76409":{"pageid":76409,"ns":0,"title":"Le
+        Dernier Restaurant avant la fin du monde","pageprops":{"wikibase_item":"Q578895"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:36 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Salut%2C+et+encore+merci+pour+le+poisson
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '147'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1278.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=27481 t=1490961996698059
+      X-Varnish:
+      - 1063639259, 247682705, 989935102
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1068 pass, cp3031 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"109955":{"pageid":109955,"ns":0,"title":"Salut,
+        et encore merci pour le poisson","pageprops":{"wikibase_item":"Q1042294"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:36 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Consultez+la+documentation+du+mod%C3%A8le
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '121'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1279.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=23893 t=1490961996912739
+      X-Varnish:
+      - 328367593, 1053533477, 992513324
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3030 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"-1":{"ns":0,"title":"Consultez
+        la documentation du mod\u00e8le","missing":""}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:37 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Le+Guide+du+voyageur+galactique+%28univers%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '178'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1194.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=55012 t=1490961997121381
+      X-Varnish:
+      - 986791589, 1040447095, 985449939
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3030 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"redirects":[{"from":"Le Guide du voyageur
+        galactique (univers)","to":"Le Guide du voyageur galactique"}],"pages":{"687604":{"pageid":687604,"ns":0,"title":"Le
+        Guide du voyageur galactique","pageprops":{"wikibase_item":"Q25169"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:37 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Douglas+Adams
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '128'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1199.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=44575 t=1490961997363236
+      X-Varnish:
+      - 347871103, 763979437, 989838939
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"27364":{"pageid":27364,"ns":0,"title":"Douglas
+        Adams","pageprops":{"wikibase_item":"Q42"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:37 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=1982+en+litt%C3%A9rature
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1230.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=28272 t=1490961997587751
+      X-Varnish:
+      - 352834418, 392374824, 989838967
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"319787":{"pageid":319787,"ns":0,"title":"1982
+        en litt\u00e9rature","pageprops":{"wikibase_item":"Q1463227"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:37 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Jean+Bonnefoy
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '134'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1230.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=30593 t=1490961997795719
+      X-Varnish:
+      - 349679852, 757151092, 986989805
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"385986":{"pageid":385986,"ns":0,"title":"Jean
+        Bonnefoy","pageprops":{"wikibase_item":"Q3170843"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:37 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=1983+en+litt%C3%A9rature
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '137'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1226.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=25952 t=1490961998020261
+      X-Varnish:
+      - 343843747, 761860906, 978508460
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"330318":{"pageid":330318,"ns":0,"title":"1983
+        en litt\u00e9rature","pageprops":{"wikibase_item":"Q280964"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:38 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Arthur+Dent
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '131'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1223.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=25529 t=1490961998228161
+      X-Varnish:
+      - 360907901, 1016197798, 986862129
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"202708":{"pageid":202708,"ns":0,"title":"Arthur
+        Dent","pageprops":{"wikibase_item":"Q613901"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:38 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Ford+Prefect+%28personnage%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '141'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1233.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=28988 t=1490961998440815
+      X-Varnish:
+      - 991371623, 1023872501, 977166338
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"216792":{"pageid":216792,"ns":0,"title":"Ford
+        Prefect (personnage)","pageprops":{"wikibase_item":"Q928321"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:38 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Terre
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '114'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1201.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=40642 t=1490961998651517
+      X-Varnish:
+      - 863116349, 664712884, 986104949
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3040 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"3027":{"pageid":3027,"ns":0,"title":"Terre","pageprops":{"wikibase_item":"Q2"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:38 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Pr%C3%A9histoire
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '128'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1204.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=32686 t=1490961998878314
+      X-Varnish:
+      - 324565716, 87174605, 988721316
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"2447":{"pageid":2447,"ns":0,"title":"Pr\u00e9histoire","pageprops":{"wikibase_item":"Q11756"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:38 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=La+Grande+Question+sur+la+vie%2C+l%27univers+et+le+reste
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '191'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1231.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=38707 t=1490961999100120
+      X-Varnish:
+      - 858053660, 254841339, 965637174
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3031 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"redirects":[{"from":"La Grande Question
+        sur la vie, l''univers et le reste","to":"La grande question sur la vie, l''univers
+        et le reste"}],"pages":{"307515":{"pageid":307515,"ns":0,"title":"La grande
+        question sur la vie, l''univers et le reste","pageprops":{"wikibase_item":"Q1879675"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:39 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Plan%C3%A8te
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '128'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1228.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=24565 t=1490961999326514
+      X-Varnish:
+      - 859324799, 1046174320, 988427262
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3030 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"3921365":{"pageid":3921365,"ns":0,"title":"Plan\u00e8te","pageprops":{"wikibase_item":"Q634"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:39 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=S.+P.+Somtow
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '130'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1228.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=26228 t=1490961999533353
+      X-Varnish:
+      - 354630123, 1015853487, 993297334
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"98389":{"pageid":98389,"ns":0,"title":"S.
+        P. Somtow","pageprops":{"wikibase_item":"Q938710"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:39 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Royaume-Uni
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '122'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1280.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=30722 t=1490961999747227
+      X-Varnish:
+      - 725190724, 759056925, 988170021
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"2551":{"pageid":2551,"ns":0,"title":"Royaume-Uni","pageprops":{"wikibase_item":"Q145"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:39 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Cricket
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '123'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1283.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=40611 t=1490961999965214
+      X-Varnish:
+      - 342229446, 390468191, 993512618
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"44834":{"pageid":44834,"ns":0,"title":"Cricket","pageprops":{"wikibase_item":"Q5375"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:40 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Eoin+Colfer
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '131'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1229.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=28498 t=1490962000189941
+      X-Varnish:
+      - 715253474, 1009411754, 982842330
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"285204":{"pageid":285204,"ns":0,"title":"Eoin
+        Colfer","pageprops":{"wikibase_item":"Q211893"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:40 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Encore+une+chose%E2%80%A6
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1285.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=24099 t=1490962000410377
+      X-Varnish:
+      - 860217224, 659740583, 991338608
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3040 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"3300088":{"pageid":3300088,"ns":0,"title":"Encore
+        une chose\u2026","pageprops":{"wikibase_item":"Q936532"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:40 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Arthur+Dent
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '131'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1203.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29899 t=1490962000615527
+      X-Varnish:
+      - 326230309, 1054210828, 986923395
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3030 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"202708":{"pageid":202708,"ns":0,"title":"Arthur
+        Dent","pageprops":{"wikibase_item":"Q613901"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:40 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Ford+Prefect+%28personnage%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '141'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1232.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=40598 t=1490962000828725
+      X-Varnish:
+      - 855652762, 761023668, 975861521
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"216792":{"pageid":216792,"ns":0,"title":"Ford
+        Prefect (personnage)","pageprops":{"wikibase_item":"Q928321"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:40 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Zaphod+Beeblebrox
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '134'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1223.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=26241 t=1490962001053141
+      X-Varnish:
+      - 863209766, 1013952540, 990727455
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"202728":{"pageid":202728,"ns":0,"title":"Zaphod
+        Beeblebrox","pageprops":{"wikibase_item":"Q637202"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:41 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Trillian+%28personnage%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '137'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1290.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=30145 t=1490962001267719
+      X-Varnish:
+      - 692056404, 1015412601, 989618771
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"202735":{"pageid":202735,"ns":0,"title":"Trillian
+        (personnage)","pageprops":{"wikibase_item":"Q959519"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:41 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Marvin+%28Le+Guide+du+voyageur+galactique%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '153'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1194.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=58400 t=1490962001489223
+      X-Varnish:
+      - 862525974, 84623564, 987904764
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"262268":{"pageid":262268,"ns":0,"title":"Marvin
+        (Le Guide du voyageur galactique)","pageprops":{"wikibase_item":"Q264685"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:41 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Andro%C3%AFde
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '130'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1287.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=37657 t=1490962001738332
+      X-Varnish:
+      - 356804134, 1019586879, 991338684
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"20885":{"pageid":20885,"ns":0,"title":"Andro\u00efde","pageprops":{"wikibase_item":"Q181787"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:41 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Parano%C3%AFa
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '129'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1276.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=24619 t=1490962001966416
+      X-Varnish:
+      - 726044574, 672074731, 980802104
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3040 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"25070":{"pageid":25070,"ns":0,"title":"Parano\u00efa","pageprops":{"wikibase_item":"Q1229994"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:42 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=D%C3%A9pression+%28m%C3%A9decine%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '173'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1197.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=30698 t=1490962002186611
+      X-Varnish:
+      - 349934922, 388876371, 988654563
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
     body:
       encoding: ASCII-8BIT
       string: '{"batchcomplete":"","query":{"redirects":[{"from":"D\u00e9pression
-        (m\u00e9decine)","to":"D\u00e9pression (psychiatrie)"},{"from":"Le Guide du
-        voyageur galactique (univers)","to":"Le Guide du voyageur galactique"},{"from":"La
-        Grande Question sur la vie, l''univers et le reste","to":"La grande question
-        sur la vie, l''univers et le reste"}],"pages":{"-1":{"ns":0,"title":"Consultez
-        la documentation du mod\u00e8le","missing":""},"-2":{"ns":0,"title":"Portail
-        de la science-fiction","missing":""},"319787":{"pageid":319787,"ns":0,"title":"1982
-        en litt\u00e9rature","pageprops":{"wikibase_item":"Q1463227"}},"330318":{"pageid":330318,"ns":0,"title":"1983
-        en litt\u00e9rature","pageprops":{"wikibase_item":"Q280964"}},"4808931":{"pageid":4808931,"ns":0,"title":"Agrajag","pageprops":{"wikibase_item":"Q2827118"}},"20885":{"pageid":20885,"ns":0,"title":"Andro\u00efde","pageprops":{"wikibase_item":"Q181787"}},"1463739":{"pageid":1463739,"ns":0,"title":"Anglais
-        britannique","pageprops":{"wikibase_item":"Q7979"}},"12545":{"pageid":12545,"ns":0,"title":"Architecte","pageprops":{"wikibase_item":"Q42973"}},"202708":{"pageid":202708,"ns":0,"title":"Arthur
-        Dent","pageprops":{"wikibase_item":"Q613901"}},"194145":{"pageid":194145,"ns":0,"title":"Babel
-        fish","pageprops":{"wikibase_item":"Q904183"}},"44834":{"pageid":44834,"ns":0,"title":"Cricket","pageprops":{"wikibase_item":"Q5375"}},"563653":{"pageid":563653,"ns":0,"title":"C\u0153ur
-        en Or","pageprops":{"wikibase_item":"Q1141254"}},"27364":{"pageid":27364,"ns":0,"title":"Douglas
-        Adams","pageprops":{"wikibase_item":"Q42"}},"3300088":{"pageid":3300088,"ns":0,"title":"Encore
-        une chose\u2026","pageprops":{"wikibase_item":"Q936532"}},"285204":{"pageid":285204,"ns":0,"title":"Eoin
-        Colfer","pageprops":{"wikibase_item":"Q211893"}},"2366347":{"pageid":2366347,"ns":0,"title":"Fjord","pageprops":{"wikibase_item":"Q45776"}},"206385":{"pageid":206385,"ns":0,"title":"Fonds
-        de tiroir","pageprops":{"wikibase_item":"Q468135"}},"216792":{"pageid":216792,"ns":0,"title":"Ford
-        Prefect (personnage)","pageprops":{"wikibase_item":"Q928321"}},"112089":{"pageid":112089,"ns":0,"title":"Globalement
-        inoffensive","pageprops":{"wikibase_item":"Q187655"}},"362625":{"pageid":362625,"ns":0,"title":"H2g2
-        (site web)","pageprops":{"wikibase_item":"Q285194"}},"24498":{"pageid":24498,"ns":0,"title":"International
-        Standard Book Number","pageprops":{"wikibase_item":"Q33057"}},"385986":{"pageid":385986,"ns":0,"title":"Jean
-        Bonnefoy","pageprops":{"wikibase_item":"Q3170843"}},"1597757":{"pageid":1597757,"ns":0,"title":"Jour
-        de la serviette","pageprops":{"wikibase_item":"Q241666"}},"307515":{"pageid":307515,"ns":0,"title":"La
-        grande question sur la vie, l''univers et le reste","pageprops":{"wikibase_item":"Q1879675"}},"76409":{"pageid":76409,"ns":0,"title":"Le
-        Dernier Restaurant avant la fin du monde","pageprops":{"wikibase_item":"Q578895"}},"687604":{"pageid":687604,"ns":0,"title":"Le
-        Guide du voyageur galactique","pageprops":{"wikibase_item":"Q25169"}},"2443087":{"pageid":2443087,"ns":0,"title":"Le
-        Guide du voyageur galactique (fictif)","pageprops":{"wikibase_item":"Q2073118"}},"99930":{"pageid":99930,"ns":0,"title":"Le
-        Guide du voyageur galactique (roman)","pageprops":{"wikibase_item":"Q3107329"}},"262268":{"pageid":262268,"ns":0,"title":"Marvin
-        (Le Guide du voyageur galactique)","pageprops":{"wikibase_item":"Q264685"}},"7191195":{"pageid":7191195,"ns":0,"title":"Novembre
-        1983","pageprops":{"wikibase_item":"Q16667218"}},"25070":{"pageid":25070,"ns":0,"title":"Parano\u00efa","pageprops":{"wikibase_item":"Q1229994"}},"3921365":{"pageid":3921365,"ns":0,"title":"Plan\u00e8te","pageprops":{"wikibase_item":"Q634"}},"2447":{"pageid":2447,"ns":0,"title":"Pr\u00e9histoire","pageprops":{"wikibase_item":"Q11756"}},"2037772":{"pageid":2037772,"ns":0,"title":"Pr\u00e9sence
-        du futur","pageprops":{"wikibase_item":"Q3409094"}},"2551":{"pageid":2551,"ns":0,"title":"Royaume-Uni","pageprops":{"wikibase_item":"Q145"}},"98389":{"pageid":98389,"ns":0,"title":"S.
-        P. Somtow","pageprops":{"wikibase_item":"Q938710"}},"109955":{"pageid":109955,"ns":0,"title":"Salut,
-        et encore merci pour le poisson","pageprops":{"wikibase_item":"Q1042294"}},"2784":{"pageid":2784,"ns":0,"title":"Science-fiction","pageprops":{"wikibase_item":"Q24925"}},"3027":{"pageid":3027,"ns":0,"title":"Terre","pageprops":{"wikibase_item":"Q2"}},"10058968":{"pageid":10058968,"ns":0,"title":"The
-        Hitchhiker''s Guide to the Galaxy (jeu vid\u00e9o)","pageprops":{"wikibase_item":"Q756513"}},"4182608":{"pageid":4182608,"ns":0,"title":"The
-        Hitchhiker''s Guide to the Galaxy (s\u00e9rie radiophonique)","pageprops":{"wikibase_item":"Q3521267"}},"5508092":{"pageid":5508092,"ns":0,"title":"The
-        Hitchhiker''s Guide to the Galaxy (s\u00e9rie t\u00e9l\u00e9vis\u00e9e)","pageprops":{"wikibase_item":"Q847094"}},"202735":{"pageid":202735,"ns":0,"title":"Trillian
-        (personnage)","pageprops":{"wikibase_item":"Q959519"}},"508683":{"pageid":508683,"ns":0,"title":"Vogon","pageprops":{"wikibase_item":"Q1076157"}},"202728":{"pageid":202728,"ns":0,"title":"Zaphod
-        Beeblebrox","pageprops":{"wikibase_item":"Q637202"}},"871280":{"pageid":871280,"ns":0,"title":"\u00c9ditions
-        Deno\u00ebl","pageprops":{"wikibase_item":"Q2485022"}},"90803":{"pageid":90803,"ns":0,"title":"D\u00e9pression
+        (m\u00e9decine)","to":"D\u00e9pression (psychiatrie)"}],"pages":{"90803":{"pageid":90803,"ns":0,"title":"D\u00e9pression
         (psychiatrie)","pageprops":{"wikibase_item":"Q42844"}}}}}'
     http_version: 
-  recorded_at: Mon, 27 Mar 2017 09:29:15 GMT
+  recorded_at: Fri, 31 Mar 2017 12:06:42 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Architecte
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '126'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1228.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=23534 t=1490962002398872
+      X-Varnish:
+      - 321811988, 258867763, 990293078
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1066 pass, cp3031 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"12545":{"pageid":12545,"ns":0,"title":"Architecte","pageprops":{"wikibase_item":"Q42973"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:42 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Fjord
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '125'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1279.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=25546 t=1490962002611227
+      X-Varnish:
+      - 849211204, 55290537, 991892668
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"2366347":{"pageid":2366347,"ns":0,"title":"Fjord","pageprops":{"wikibase_item":"Q45776"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:42 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Le+Guide+du+voyageur+galactique+%28univers%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '178'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1278.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=35958 t=1490962002823204
+      X-Varnish:
+      - 327014953, 761320276, 987839616
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"redirects":[{"from":"Le Guide du voyageur
+        galactique (univers)","to":"Le Guide du voyageur galactique"}],"pages":{"687604":{"pageid":687604,"ns":0,"title":"Le
+        Guide du voyageur galactique","pageprops":{"wikibase_item":"Q25169"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:42 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Douglas+Adams
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '128'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1231.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=27698 t=1490962003055683
+      X-Varnish:
+      - 972815764, 78510028, 993512692
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"27364":{"pageid":27364,"ns":0,"title":"Douglas
+        Adams","pageprops":{"wikibase_item":"Q42"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:43 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Le+Guide+du+voyageur+galactique
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '143'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1233.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=39821 t=1490962003261289
+      X-Varnish:
+      - 311727377, 666933586, 990455072
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3040 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"687604":{"pageid":687604,"ns":0,"title":"Le
+        Guide du voyageur galactique","pageprops":{"wikibase_item":"Q25169"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:43 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Douglas+Adams
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '128'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1227.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=41380 t=1490962003496537
+      X-Varnish:
+      - 860217248, 665276361, 991074262
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3040 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"27364":{"pageid":27364,"ns":0,"title":"Douglas
+        Adams","pageprops":{"wikibase_item":"Q42"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:43 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Le+Guide+du+voyageur+galactique+%28roman%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '152'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1229.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=52342 t=1490962003740071
+      X-Varnish:
+      - 307407570, 384982117, 980939457
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"99930":{"pageid":99930,"ns":0,"title":"Le
+        Guide du voyageur galactique (roman)","pageprops":{"wikibase_item":"Q3107329"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:43 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Le+Dernier+Restaurant+avant+la+fin+du+monde
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '151'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1290.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=31717 t=1490962003990371
+      X-Varnish:
+      - 723686604, 394172831, 985910851
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"76409":{"pageid":76409,"ns":0,"title":"Le
+        Dernier Restaurant avant la fin du monde","pageprops":{"wikibase_item":"Q578895"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:44 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Salut%2C+et+encore+merci+pour+le+poisson
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '147'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1225.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29029 t=1490962004218885
+      X-Varnish:
+      - 985644240, 383807547, 985389650
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"109955":{"pageid":109955,"ns":0,"title":"Salut,
+        et encore merci pour le poisson","pageprops":{"wikibase_item":"Q1042294"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:44 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Globalement+inoffensive
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '137'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1200.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=30168 t=1490962004519092
+      X-Varnish:
+      - 349066937, 383825340, 985910895
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"112089":{"pageid":112089,"ns":0,"title":"Globalement
+        inoffensive","pageprops":{"wikibase_item":"Q187655"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:44 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=The+Hitchhiker%27s+Guide+to+the+Galaxy+%28s%C3%A9rie+radiophonique%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '172'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1229.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=27860 t=1490962004772836
+      X-Varnish:
+      - 307132952, 383825345, 993624216
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"4182608":{"pageid":4182608,"ns":0,"title":"The
+        Hitchhiker''s Guide to the Galaxy (s\u00e9rie radiophonique)","pageprops":{"wikibase_item":"Q3521267"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:44 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=The+Hitchhiker%27s+Guide+to+the+Galaxy+%28s%C3%A9rie+t%C3%A9l%C3%A9vis%C3%A9e%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '170'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1222.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=27884 t=1490962004996452
+      X-Varnish:
+      - 991626164, 384343484, 978319671
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"5508092":{"pageid":5508092,"ns":0,"title":"The
+        Hitchhiker''s Guide to the Galaxy (s\u00e9rie t\u00e9l\u00e9vis\u00e9e)","pageprops":{"wikibase_item":"Q847094"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:45 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=The+Hitchhiker%27s+Guide+to+the+Galaxy+%28jeu+vid%C3%A9o%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '165'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1229.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=27508 t=1490962005226467
+      X-Varnish:
+      - 314542787, 244740249, 972022643
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3031 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"10058968":{"pageid":10058968,"ns":0,"title":"The
+        Hitchhiker''s Guide to the Galaxy (jeu vid\u00e9o)","pageprops":{"wikibase_item":"Q756513"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:45 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Le+Guide+du+voyageur+galactique+%28fictif%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '155'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1205.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=39511 t=1490962005469235
+      X-Varnish:
+      - 341034575, 1010980280, 984732106
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"2443087":{"pageid":2443087,"ns":0,"title":"Le
+        Guide du voyageur galactique (fictif)","pageprops":{"wikibase_item":"Q2073118"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:45 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=La+grande+question+sur+la+vie%2C+l%27univers+et+le+reste
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '159'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1235.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=33651 t=1490962005701247
+      X-Varnish:
+      - 722834201, 83623041, 982959614
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"307515":{"pageid":307515,"ns":0,"title":"La
+        grande question sur la vie, l''univers et le reste","pageprops":{"wikibase_item":"Q1879675"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:45 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Arthur+Dent
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '131'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1285.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=34007 t=1490962005933929
+      X-Varnish:
+      - 303784576, 765027271, 989474134
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"202708":{"pageid":202708,"ns":0,"title":"Arthur
+        Dent","pageprops":{"wikibase_item":"Q613901"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:46 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Ford+Prefect+%28personnage%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '141'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1189.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=29014 t=1490962006200900
+      X-Varnish:
+      - 983613538, 1046015342, 978812563
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3030 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"216792":{"pageid":216792,"ns":0,"title":"Ford
+        Prefect (personnage)","pageprops":{"wikibase_item":"Q928321"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:46 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Trillian+%28personnage%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '137'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1287.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=33301 t=1490962006418985
+      X-Varnish:
+      - 350054611, 1020531195, 986528940
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"202735":{"pageid":202735,"ns":0,"title":"Trillian
+        (personnage)","pageprops":{"wikibase_item":"Q959519"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:46 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Zaphod+Beeblebrox
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '134'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1224.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=28008 t=1490962006640811
+      X-Varnish:
+      - 338484415, 383308940, 983516574
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"202728":{"pageid":202728,"ns":0,"title":"Zaphod
+        Beeblebrox","pageprops":{"wikibase_item":"Q637202"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:46 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Marvin+%28Le+Guide+du+voyageur+galactique%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '153'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1229.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=30195 t=1490962006870278
+      X-Varnish:
+      - 720984922, 85073454, 965637445
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3041 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"262268":{"pageid":262268,"ns":0,"title":"Marvin
+        (Le Guide du voyageur galactique)","pageprops":{"wikibase_item":"Q264685"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:46 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Vogon
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '125'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1286.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=22563 t=1490962007097138
+      X-Varnish:
+      - 861943439, 757586140, 984433694
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"508683":{"pageid":508683,"ns":0,"title":"Vogon","pageprops":{"wikibase_item":"Q1076157"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:47 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=C%C5%93ur+en+Or
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '136'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1290.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=27834 t=1490962007306564
+      X-Varnish:
+      - 311774755, 1002935397, 993461840
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"563653":{"pageid":563653,"ns":0,"title":"C\u0153ur
+        en Or","pageprops":{"wikibase_item":"Q1141254"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:47 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Babel+fish
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '130'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1201.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=47049 t=1490962007520704
+      X-Varnish:
+      - 339028309, 763360695, 985125431
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"194145":{"pageid":194145,"ns":0,"title":"Babel
+        fish","pageprops":{"wikibase_item":"Q904183"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:47 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Agrajag
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '129'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1277.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=27434 t=1490962007758006
+      X-Varnish:
+      - 323360761, 762033027, 974547933
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1067 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"4808931":{"pageid":4808931,"ns":0,"title":"Agrajag","pageprops":{"wikibase_item":"Q2827118"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:47 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Jour+de+la+serviette
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '137'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1199.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=31345 t=1490962007973126
+      X-Varnish:
+      - 360325143, 766627497, 985431863
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3042 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"1597757":{"pageid":1597757,"ns":0,"title":"Jour
+        de la serviette","pageprops":{"wikibase_item":"Q241666"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:48 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=H2g2+%28site+web%29
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '134'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1202.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=79596 t=1490962008191617
+      X-Varnish:
+      - 356449922, 255831804, 990391052
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1053 pass, cp3031 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"362625":{"pageid":362625,"ns":0,"title":"H2g2
+        (site web)","pageprops":{"wikibase_item":"Q285194"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:48 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Fonds+de+tiroir
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '133'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1286.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=26084 t=1490962008462468
+      X-Varnish:
+      - 720844400, 374337978, 991532474
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1052 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"206385":{"pageid":206385,"ns":0,"title":"Fonds
+        de tiroir","pageprops":{"wikibase_item":"Q468135"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:48 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Encore+une+chose%E2%80%A6
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1281.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=35703 t=1490962008682886
+      X-Varnish:
+      - 304369201, 1010452707, 987395836
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1065 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"3300088":{"pageid":3300088,"ns":0,"title":"Encore
+        une chose\u2026","pageprops":{"wikibase_item":"Q936532"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:48 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Eoin+Colfer
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '131'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1197.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=43667 t=1490962008913033
+      X-Varnish:
+      - 966596952, 1023610177, 993755530
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1055 pass, cp3033 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"285204":{"pageid":285204,"ns":0,"title":"Eoin
+        Colfer","pageprops":{"wikibase_item":"Q211893"}}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:49 GMT
+- request:
+    method: post
+    uri: https://fr.wikipedia.org/w/api.php
+    body:
+      encoding: UTF-8
+      string: action=query&format=json&ppprop=wikibase_item&prop=pageprops&redirects=1&titles=Portail+de+la+science-fiction
+    headers:
+      User-Agent:
+      - Faraday v0.11.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 31 Mar 2017 12:06:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '109'
+      Connection:
+      - keep-alive
+      Server:
+      - mw1277.eqiad.wmnet
+      X-Powered-By:
+      - HHVM/3.12.14
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private, must-revalidate, max-age=0
+      P3p:
+      - CP="This is not a P3P policy! See https://fr.wikipedia.org/wiki/Sp%C3%A9cial:CentralAutoLogin/P3P
+        for more info."
+      X-Frame-Options:
+      - DENY
+      Vary:
+      - Accept-Encoding,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization
+      Backend-Timing:
+      - D=22455 t=1490962009142503
+      X-Varnish:
+      - 850689659, 386978174, 990618982
+      Via:
+      - 1.1 varnish-v4, 1.1 varnish-v4, 1.1 varnish-v4
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      X-Cache:
+      - cp1054 pass, cp3032 pass, cp3031 pass
+      X-Cache-Status:
+      - pass
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Set-Cookie:
+      - GeoIP=GB:ENG:Frome:51.23:-2.32:v4; Path=/; secure; Domain=.wikipedia.org
+      - WMF-Last-Access-Global=31-Mar-2017;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Tue,
+        02 May 2017 12:00:00 GMT
+      - WMF-Last-Access=31-Mar-2017;Path=/;HttpOnly;secure;Expires=Tue, 02 May 2017
+        12:00:00 GMT
+      X-Analytics:
+      - ns=-1;special=Badtitle;https=1;nocookies=1
+      X-Client-Ip:
+      - 86.167.94.227
+    body:
+      encoding: ASCII-8BIT
+      string: '{"batchcomplete":"","query":{"pages":{"-1":{"ns":0,"title":"Portail
+        de la science-fiction","missing":""}}}}'
+    http_version: 
+  recorded_at: Fri, 31 Mar 2017 12:06:49 GMT
 recorded_with: VCR 3.0.3
