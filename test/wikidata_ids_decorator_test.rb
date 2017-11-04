@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'test_helper'
 
 describe WikidataIdsDecorator do
@@ -57,6 +58,14 @@ describe WikidataIdsDecorator::Links do
 
     it 'adds the correct data-wikidata attribute to links' do
       decorator.body.must_include '<a href="/wiki/Plan%C3%A8te" title="Planète" wikidata="Q634">'
+    end
+  end
+
+  describe 'Different Wikipedia links' do
+    let(:url) { URI.encode 'https://el.wikipedia.org/wiki/Κατάλογος_Ελλήνων_βουλευτών_(Σεπτέμβριος_2015)' }
+
+    it 'adds the correct data-wikidata attribute to remote links' do
+      decorator.body.must_include '<a href="https://fr.wikipedia.org/wiki/Savvas_Anastasiadis" class="extiw" title="fr:Savvas Anastasiadis" wikidata="Q19204760">'
     end
   end
 end
