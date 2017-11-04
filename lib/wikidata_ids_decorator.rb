@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'wikidata_ids_decorator/version'
 require 'scraped'
 require 'wikidata/fetcher'
