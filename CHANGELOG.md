@@ -7,6 +7,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+## [0.2.0] - 2017-11-04
 ### Added
-
-- Add notes about new features here.
+- Resolves links to other-language Wikipedias
