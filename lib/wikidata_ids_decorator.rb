@@ -6,8 +6,8 @@ require 'wikidata/fetcher'
 module WikidataIdsDecorator
   class Links < Scraped::Response::Decorator
     def body
-      local_links.each { |a| a[:wikidata] = local_link_ids[a[:title]] }
-      remote_links.each { |a| a[:wikidata] = remote_link_ids[a[:title]] }
+      local_links.each { |llink| llink[:wikidata] = local_link_ids[llink[:title]] }
+      remote_links.each { |rlink| rlink[:wikidata] = remote_link_ids[rlink[:title]] }
       working_body.to_s
     end
 
@@ -18,7 +18,7 @@ module WikidataIdsDecorator
     end
 
     def local_links
-      working_body.css('#bodyContent a[href*="/wiki"][title]').reject { |a| a[:title].include? ':' }
+      working_body.css('#bodyContent a[href*="/wiki"][title]').reject { |link| link[:title].include? ':' }
     end
 
     def local_link_ids
@@ -30,8 +30,8 @@ module WikidataIdsDecorator
     end
 
     def remote_links_by_lang
-      remote_links.select { |a| a[:title].include? ':' }
-                  .map { |a| a[:title].split ':', 2 }
+      remote_links.select { |link| link[:title].include? ':' }
+                  .map { |link| link[:title].split ':', 2 }
                   .group_by(&:first)
                   .map { |lang, arts| [lang, arts.map(&:last)] }
                   .to_h
