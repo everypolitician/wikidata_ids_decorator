@@ -6,8 +6,8 @@ require 'wikidata/fetcher'
 module WikidataIdsDecorator
   class Links < Scraped::Response::Decorator
     def body
-      local_links.each { |a| a[:wikidata] = wdids[a[:title]] }
-      remote_links.each { |a| a[:wikidata] = mapped[a[:title]] }
+      local_links.each { |a| a[:wikidata] = local_link_ids[a[:title]] }
+      remote_links.each { |a| a[:wikidata] = remote_link_ids[a[:title]] }
       working_body.to_s
     end
 
@@ -17,19 +17,19 @@ module WikidataIdsDecorator
       @working_body ||= Nokogiri::HTML(response.body)
     end
 
-    def wdids
-      @wdids ||= wikidata_ids(local_links.map { |a| a[:title] }.uniq)
-    end
-
     def local_links
       working_body.css('#bodyContent a[href*="/wiki"][title]').reject { |a| a[:title].include? ':' }
+    end
+
+    def local_link_ids
+      @local_link_ids ||= wikidata_ids(local_links.map { |a| a[:title] }.uniq)
     end
 
     def remote_links
       working_body.css('a[href*="wikipedia.org"][title].extiw')
     end
 
-    def by_lang
+    def remote_links_by_lang
       remote_links.select { |a| a[:title].include? ':' }
                   .map { |a| a[:title].split ':', 2 }
                   .group_by(&:first)
@@ -37,8 +37,8 @@ module WikidataIdsDecorator
                   .to_h
     end
 
-    def mapped
-      @mapped ||= by_lang.flat_map do |lang, names|
+    def remote_link_ids
+      @remote_link_ids ||= remote_links_by_lang.flat_map do |lang, names|
         wikidata_ids(names, lang).map { |page, id| ["#{lang}:#{page}", id] }
       end.to_h
     end
