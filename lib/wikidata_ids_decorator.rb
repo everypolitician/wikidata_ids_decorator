@@ -8,13 +8,13 @@ module WikidataIdsDecorator
     def body
       local_links.each { |a| a[:wikidata] = wdids[a[:title]] }
       remote_links.each { |a| a[:wikidata] = mapped[a[:title]] }
-      doc.to_s
+      working_body.to_s
     end
 
     private
 
-    def doc
-      @doc ||= Nokogiri::HTML(response.body)
+    def working_body
+      @working_body ||= Nokogiri::HTML(response.body)
     end
 
     def wdids
@@ -22,11 +22,11 @@ module WikidataIdsDecorator
     end
 
     def local_links
-      doc.css('#bodyContent a[href*="/wiki"][title]').reject { |a| a[:title].include? ':' }
+      working_body.css('#bodyContent a[href*="/wiki"][title]').reject { |a| a[:title].include? ':' }
     end
 
     def remote_links
-      doc.css('a[href*="wikipedia.org"][title].extiw')
+      working_body.css('a[href*="wikipedia.org"][title].extiw')
     end
 
     def by_lang
